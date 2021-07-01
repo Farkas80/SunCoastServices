@@ -1,10 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Six+Caps&display=swap");
 .welcome {
   background-image: url(../img/view.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-p {
-  color: red;
+.welcome h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #223843;
+  line-height: 1.5;
+  text-align: center;
 }
 
 body {
@@ -13,6 +29,10 @@ body {
   line-height: 1.6;
   background: #FFFFFF;
   font-size: 0.875rems;
+}
+
+img {
+  max-width: 100%;
 }
 
 h1, h2, p {
