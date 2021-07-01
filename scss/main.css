@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Six+Caps&display=swap");
 body {
-  color: #E8E9EB;
+  color: #A7A7A7;
   font-family: "Merriweather", sans-serif;
   line-height: 1.6;
   background: #FFFFFF;
+  font-size: 0.875rems;
+}
+
+h1, h2, p {
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 
 h1 {
@@ -13,8 +19,20 @@ h1 {
 }
 
 h1 span {
+  font-size: 5.5rem;
+  letter-spacing: 0.6em;
   color: #03AFC2;
+  text-transform: uppercase;
+  line-height: 1;
   font-family: "Six Caps", sans-serif;
   display: block;
-  font-size: 5.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: 0.6em;
+  color: #606060;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Six Caps", sans-serif;
 }

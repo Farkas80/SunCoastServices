@@ -5,6 +5,12 @@ body {
     font-family: $ff-s;
     line-height: 1.6;
     background: $white;
+    font-size: 0.875rems;
+}
+
+h1, h2, p {
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 h1 {
@@ -13,13 +19,13 @@ h1 {
     font-size: 3.125rem;
 
     span {
-        color: $accent;
-        font-family: $ff-ss;
-        display: block;
-        font-size: 5.5rem;
+        @include sans-serif($fs: 5.5rem, $color: $accent);
+        display: block;        
     }
 }
 
 h2 {
-
+    @include sans-serif($fs: 2rem);
 }
+
+
