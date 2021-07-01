@@ -1,1 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Six+Caps&display=swap");
+body {
+  color: #E8E9EB;
+  font-family: "Merriweather", sans-serif;
+  line-height: 1.6;
+  background: #FFFFFF;
+}
+
+h1 {
+  color: #03AFC2;
+  line-height: 1;
+  font-size: 3.125rem;
+}
+
+h1 span {
+  color: #03AFC2;
+  font-family: "Six Caps", sans-serif;
+  display: block;
+  font-size: 5.5rem;
+}
