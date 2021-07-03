@@ -11,8 +11,20 @@
         font-size: 1.5rem;
         font-weight: $fw-n;
         color: $dark-blue;
-        line-height: 1.5;
+        line-height: 2;
         text-align: center;
-       }
+        span {
+            @include sans-serif($fs: 5.5rem, $color: $accent);
+            display: block;        
+        }
+        &::before {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+            height: 1px;
+            background: $dark-blue;
+        }
+    }
 }
 

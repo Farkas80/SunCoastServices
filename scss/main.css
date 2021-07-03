@@ -19,8 +19,27 @@
   font-size: 1.5rem;
   font-weight: 400;
   color: #223843;
-  line-height: 1.5;
+  line-height: 2;
   text-align: center;
+}
+
+.welcome h1 span {
+  font-size: 5.5rem;
+  letter-spacing: 0.6em;
+  color: #03AFC2;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Six Caps", sans-serif;
+  display: block;
+}
+
+.welcome h1::before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 1px;
+  background: #223843;
 }
 
 body {
@@ -44,16 +63,6 @@ h1 {
   color: #03AFC2;
   line-height: 1;
   font-size: 3.125rem;
-}
-
-h1 span {
-  font-size: 5.5rem;
-  letter-spacing: 0.6em;
-  color: #03AFC2;
-  text-transform: uppercase;
-  line-height: 1;
-  font-family: "Six Caps", sans-serif;
-  display: block;
 }
 
 h2 {
