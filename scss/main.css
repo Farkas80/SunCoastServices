@@ -25,20 +25,43 @@
 
 .welcome h1 span {
   font-size: 5.5rem;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.15em;
   color: #03AFC2;
   text-transform: uppercase;
   line-height: 1;
   font-family: "Six Caps", sans-serif;
+  font-weight: 400;
   display: block;
 }
 
-.welcome h1::before {
+.welcome h1::before, .welcome h1::after {
   content: '';
   display: block;
-  margin: 0 auto;
   width: 50%;
   height: 1px;
+  background: #223843;
+}
+
+.welcome h1::before {
+  margin: 0 auto 2em;
+}
+
+.welcome h1::after {
+  margin: 2em auto 0;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FFFFFF;
+}
+
+.intro h2 {
+  color: #FFFFFF;
+}
+
+.intro-middle {
   background: #223843;
 }
 
@@ -67,9 +90,10 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.15em;
   color: #606060;
   text-transform: uppercase;
   line-height: 1;
   font-family: "Six Caps", sans-serif;
+  font-weight: 400;
 }
