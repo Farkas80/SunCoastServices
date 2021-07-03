@@ -61,6 +61,15 @@
   color: #FFFFFF;
 }
 
+.intro h2::after {
+  content: '';
+  width: 20%;
+  height: 1px;
+  background: #FFFFFF;
+  display: block;
+  margin: 1em auto 0;
+}
+
 @supports (display: grid) {
   .intro {
     display: -ms-grid;
