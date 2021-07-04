@@ -1,0 +1,15 @@
+.portfolio {
+    text-align: center;
+    background: $light-gray;
+    padding: 5em 0;
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item figcaption {
+    position: absolute;
+    
+}

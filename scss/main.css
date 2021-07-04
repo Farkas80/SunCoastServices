@@ -204,6 +204,21 @@ textarea {
   padding: 0.5em 1.5em;
 }
 
+.portfolio {
+  text-align: center;
+  background: #E8E9EB;
+  padding: 5em 0;
+}
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item figcaption {
+  position: absolute;
+}
+
 footer {
   background: #223843;
   padding: 5em 0;
