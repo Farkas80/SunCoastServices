@@ -204,6 +204,38 @@ textarea {
   padding: 0.5em 1.5em;
 }
 
+footer {
+  background: #223843;
+  padding: 5em 0;
+  text-align: center;
+}
+
+.social-icons {
+  width: 90%;
+  max-width: 15em;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 4em auto;
+}
+
+.social-icon {
+  width: 25%;
+  height: 25%;
+}
+
+.copyright::before {
+  content: '';
+  display: block;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.25);
+  margin-bottom: 4em;
+}
+
 body {
   color: #A7A7A7;
   font-family: "Merriweather", sans-serif;
