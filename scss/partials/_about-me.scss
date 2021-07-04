@@ -1,5 +1,6 @@
 .about-me {
-    @extend %container;
+    @include container;
+    @include clearfix; //Fallback
     margin-top: 3em;
 }
 
