@@ -1,0 +1,13 @@
+.contact {
+    @include container;
+    padding: 5em 0;
+
+    h1 {
+        text-align: center;
+    }
+}
+
+input,
+textarea {
+    display: block;
+}
