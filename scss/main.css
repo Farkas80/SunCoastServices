@@ -217,6 +217,41 @@ textarea {
 
 .portfolio-item figcaption {
   position: absolute;
+  background: rgba(3, 175, 194, 0.5);
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2em;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.portfolio-item:hover figcaption {
+  top: 0;
+}
+
+.portfolio-title {
+  color: #FFFFFF;
+  font-size: 3.625rem;
+  margin-bottom: auto;
+}
+
+.portfolio-link {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-bottom: 3px solid #FFFFFF;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 footer {

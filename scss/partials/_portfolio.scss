@@ -7,9 +7,37 @@
 .portfolio-item {
     position: relative;
     overflow: hidden;
+
+    figcaption {
+    position: absolute;
+    background: rgba($accent, 0.5);
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2em;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;   
+    } 
+
+    &:hover figcaption {
+        top: 0;
+    }
 }
 
-.portfolio-item figcaption {
-    position: absolute;
-    
+.portfolio-title {
+    color: $white;
+    font-size: 3.625rem;
+    margin-bottom: auto;
+}
+
+.portfolio-link {
+    color: $white;
+    font-weight: $fw-b;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-bottom: 3px solid $white;
+    align-self: flex-start;
 }
