@@ -7,7 +7,31 @@
     }
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+    color: $dark-gray;
+}
 input,
 textarea {
     display: block;
+    padding: 0.5em;
+    width: 100%;
+    background: $light-gray;
+    border: 1px solid $gray;
+}
+
+.button {
+    display: inline-block;
+    width: auto;
+    margin: 1em auto;
+    background: $accent;
+    border: none;    
+    @include sans-serif($fs: 2.5rem, $color: $white);
+    padding: 0.5em 1.5em;
 }
