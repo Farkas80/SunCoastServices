@@ -43,3 +43,17 @@
     border-bottom: 3px solid $white;
     align-self: flex-start;
 }
+
+//Grid
+
+@supports (display: grid) {
+    .portfolio-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    //featured item has to start at the top and at the left
+    .portfolio-item.featured {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+    }
+}
