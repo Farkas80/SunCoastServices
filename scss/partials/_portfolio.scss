@@ -19,10 +19,12 @@
     color: $white;
     display: flex;
     flex-direction: column;
-    text-align: left;   
+    text-align: left; 
+    transition: top ease-in-out 250ms;  
     } 
 
-    &:hover figcaption {
+    &:hover figcaption,
+    &:focus figcaption {
         top: 0;
     }
 }
