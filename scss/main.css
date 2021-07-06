@@ -210,9 +210,28 @@ textarea {
   padding: 5em 0;
 }
 
+.portfolio-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: max-width 75em;
+  max-width: 70em;
+  margin: 0 auto;
+}
+
 .portfolio-item {
   position: relative;
   overflow: hidden;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+}
+
+.portfolio-item img {
+  display: block;
+  width: 100%;
 }
 
 .portfolio-item figcaption {
@@ -243,8 +262,12 @@ textarea {
 
 .portfolio-title {
   color: #FFFFFF;
-  font-size: 3.625rem;
+  font-size: 2.5rem;
   margin-bottom: auto;
+}
+
+.portfolio-desc {
+  display: none;
 }
 
 .portfolio-link {
@@ -271,6 +294,12 @@ textarea {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
     grid-row: 1 / span 2;
+  }
+  .featured .portfolio-title {
+    font-size: 5rem;
+  }
+  .featured .portfolio-desc {
+    display: block;
   }
 }
 
