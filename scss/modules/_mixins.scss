@@ -11,3 +11,11 @@
         clear: both;
     }
 }
+
+//Media Queries
+
+@mixin mq($width: 50em) {
+    @media (min-width: $width) {
+        @content;
+    }
+}
