@@ -128,6 +128,17 @@
   clear: both;
 }
 
+.about-img {
+  max-height: 25em;
+}
+
+@media (min-width: 42em) {
+  .about-img {
+    float: left;
+    margin-right: 1em;
+  }
+}
+
 .about-title {
   margin-bottom: 2em;
 }
@@ -149,6 +160,13 @@
     -ms-grid-row-span: 1;
     grid-row: 1 / 2;
   }
+  @media (min-width: 50em) {
+    .about-img {
+      -ms-grid-row: 1;
+      -ms-grid-row-span: 3;
+      grid-row: 1 / 4;
+    }
+  }
   .about-title {
     grid-column: name-start / port-end;
     -ms-grid-row: 1;
@@ -161,6 +179,12 @@
   .about-subtitle,
   .about-text {
     grid-column: port-start / port-end;
+  }
+  @media (min-width: 50em) {
+    .about-subtitle,
+    .about-text {
+      grid-column: image-end / port-end;
+    }
   }
 }
 

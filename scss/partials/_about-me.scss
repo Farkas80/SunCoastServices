@@ -4,6 +4,15 @@
     margin-top: 3em;
 }
 
+.about-img {
+    max-height: 25em;
+
+    @media (min-width: 42em) {
+        float: left;
+        margin-right: 1em;
+    }
+}
+
 .about-title {
     margin-bottom: 2em;
 }
@@ -21,6 +30,10 @@
     .about-img {
         grid-column: port-start / img-end;
         grid-row: 1 / 2;
+
+        @include mq {
+            grid-row: 1 / 4;
+        }
     }
 
     .about-title {
@@ -32,6 +45,10 @@
     .about-subtitle,
     .about-text {
         grid-column: port-start / port-end;
+
+        @include mq {
+            grid-column: image-end / port-end;
+        }
     }
 
     
