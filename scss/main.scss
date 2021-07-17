@@ -32,6 +32,10 @@ h1 {
 
 h2 {
     @include sans-serif($fs: 2rem);
+
+    @include mq {
+        font-size: 3rem;
+    }
 }
 
 
