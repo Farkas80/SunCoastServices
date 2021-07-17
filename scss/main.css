@@ -23,6 +23,12 @@
   text-align: center;
 }
 
+@media (min-width: 50em) {
+  .welcome h1 {
+    font-size: 3vw;
+  }
+}
+
 .welcome h1 span {
   font-size: 5.5rem;
   letter-spacing: 0.15em;
@@ -32,6 +38,12 @@
   font-family: "Six Caps", sans-serif;
   font-weight: 400;
   display: block;
+}
+
+@media (min-width: 50em) {
+  .welcome h1 span {
+    font-size: 10vw;
+  }
 }
 
 .welcome h1::before, .welcome h1::after {
@@ -341,6 +353,12 @@ body {
   line-height: 1.6;
   background: #FFFFFF;
   font-size: 0.875rems;
+}
+
+@media (min-width: 50em) {
+  body {
+    font-size: 1.125rem;
+  }
 }
 
 img {

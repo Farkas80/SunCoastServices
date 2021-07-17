@@ -7,6 +7,10 @@ body {
     line-height: 1.6;
     background: $white;
     font-size: 0.875rems;
+
+    @include mq {
+        font-size: 1.125rem;
+    }
 }
 
 img {
