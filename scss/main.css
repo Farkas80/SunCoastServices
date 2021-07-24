@@ -153,6 +153,7 @@
     display: grid;
     -ms-grid-columns: [port-start] minmax(6em, 1fr) [name-start] minmax(6em, 1fr) [img-end] 2fr [port-end];
         grid-template-columns: [port-start] minmax(6em, 1fr) [name-start] minmax(6em, 1fr) [img-end] 2fr [port-end];
+    grid-column-gap: 1em;
   }
   .about-img {
     grid-column: port-start / img-end;
@@ -169,9 +170,7 @@
   }
   .about-title {
     grid-column: name-start / port-end;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1 / 2;
+    grid-row: 0 / 1;
     -ms-flex-item-align: end;
         -ms-grid-row-align: end;
         align-self: end;
@@ -185,6 +184,16 @@
     .about-text {
       grid-column: image-end / port-end;
     }
+  }
+  .about-subtitle {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+  }
+  .about-text {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3 / 4;
   }
 }
 
