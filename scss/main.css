@@ -85,10 +85,15 @@ nav ul {
   height: 100vh;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   background: #03AFC2;
+}
+
+nav li {
+  border-bottom: 1px solid #223843;
+  text-align: center;
 }
 
 nav a {
