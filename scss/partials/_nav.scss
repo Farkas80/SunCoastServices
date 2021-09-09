@@ -14,4 +14,12 @@ nav ul {
     flex-direction: column;
     height: 100vh;
     justify-content: space-around;
+    align-items: center;
+    background: $accent;
+}
+
+nav a {
+    @include sans-serif($fs: 4rem, $color: $dark-blue);
+    text-decoration: none;
+    padding: 3em;
 }

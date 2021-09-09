@@ -85,6 +85,22 @@ nav ul {
   height: 100vh;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #03AFC2;
+}
+
+nav a {
+  font-size: 4rem;
+  letter-spacing: 0.15em;
+  color: #223843;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Six Caps", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 3em;
 }
 
 .intro {
